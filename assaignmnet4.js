@@ -34,34 +34,34 @@ function isJavaScriptFile (fileName) {
 const extentionName = isJavaScriptFile('mokbul.js');
 console.log(extentionName);
 
-// // problem solve 3
+// problem solve 3
 
-// function oilPrice (oilQuality, petrolQuality, diselQuality) {
-//     if (typeof oilQuality !== 'number') {
-//         return 'please Enter your First Perameter Value Number'
-//     }
-//     else if (typeof petrolQuality !== 'number') {
-//         return 'please Enter your Second Perameter Value Number'
-//     }
-//     else if (typeof diselQuality !== 'number') {
-//         return 'please Enter your Third Perameter Value Number'
-//     }
+function oilPrice (oilQuality, petrolQuality, diselQuality) {
+    if (typeof oilQuality !== 'number') {
+        return 'please Enter your First Perameter Value Number'
+    }
+    else if (typeof petrolQuality !== 'number') {
+        return 'please Enter your Second Perameter Value Number'
+    }
+    else if (typeof diselQuality !== 'number') {
+        return 'please Enter your Third Perameter Value Number'
+    }
 
-//     const perLiterOil = 114;
-//     const perLiterPetrol = 130;
-//     const perLiterDisel = 135;
+    const perLiterOil = 114;
+    const perLiterPetrol = 130;
+    const perLiterDisel = 135;
 
-//     const oil = oilQuality * perLiterOil;
-//     const petrol = petrolQuality * perLiterPetrol;
-//     const disel = diselQuality * perLiterDisel;
+    const oil = oilQuality * perLiterOil;
+    const petrol = petrolQuality * perLiterPetrol;
+    const disel = diselQuality * perLiterDisel;
 
-//     const totalCost =  oil + petrol + disel;
-//     return totalCost;
+    const totalCost =  oil + petrol + disel;
+    return totalCost;
     
-// }
+}
 
-// const totalCost = oilPrice(2, 2, 1);
-// console.log(totalCost);
+const totalCost = oilPrice(2, 2, 1);
+console.log(totalCost);
 
 // // problem solve 4
 
