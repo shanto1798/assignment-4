@@ -15,24 +15,24 @@ function radiantToDegree ( radiant ) {
 let result = radiantToDegree(2);
 console.log(result);
 
-// // problem solve 2
+// problem solve 2
 
-// function isJavaScriptFile (fileName) {
-//     if (typeof fileName === 'string') {
-//         if (fileName.includes('.js')) {
-//             return true;
-//         }
-//         else {
-//             return false;
-//         }
-//     }
-//     else {
-//         return 'please Enter A String Namr';
-//     }
-// }
+function isJavaScriptFile (fileName) {
+    if (typeof fileName === 'string') {
+        if (fileName.includes('.js')) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+    else {
+        return 'please Enter A String Namr';
+    }
+}
 
-// const extentionName = isJavaScriptFile('mokbul.js');
-// console.log(extentionName);
+const extentionName = isJavaScriptFile('mokbul.js');
+console.log(extentionName);
 
 // // problem solve 3
 
