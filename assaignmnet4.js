@@ -63,26 +63,26 @@ function oilPrice (oilQuality, petrolQuality, diselQuality) {
 const totalCost = oilPrice(2, 2, 1);
 console.log(totalCost);
 
-// // problem solve 4
+// problem solve 4
 
-// function publicBusFare(people) {
-//     if (typeof people === 'number'){
-//         let perBus = 50;
-//         let perMicroBus = 11;
-//         let reminingBusPeople = people % perBus;
-//         let microBusPeople = reminingBusPeople % perMicroBus;
-//         let publicBusPeople = microBusPeople;
-//         let publicBusPeopleCost = 250;
-//         let totalLocalCost = publicBusPeople * publicBusPeopleCost;
-//         return totalLocalCost;
-//     }
-//     else {
-//         return 'Give Me People Number';
-//     }
-// }
+function publicBusFare(people) {
+    if (typeof people === 'number'){
+        let perBus = 50;
+        let perMicroBus = 11;
+        let reminingBusPeople = people % perBus;
+        let microBusPeople = reminingBusPeople % perMicroBus;
+        let publicBusPeople = microBusPeople;
+        let publicBusPeopleCost = 250;
+        let totalLocalCost = publicBusPeople * publicBusPeopleCost;
+        return totalLocalCost;
+    }
+    else {
+        return 'Give Me People Number';
+    }
+}
 
-// const public = publicBusFare(365);
-// console.log(public);
+const public = publicBusFare(365);
+console.log(public);
 
 // // problem solve 5
 
