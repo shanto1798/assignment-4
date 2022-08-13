@@ -84,19 +84,19 @@ function publicBusFare(people) {
 const public = publicBusFare(365);
 console.log(public);
 
-// // problem solve 5
+// problem solve 5
 
-// const friendsOne = {name: 'jahangir alam', address: 'sylet', friend: 'nurul amin'};
-// const friendsTwo = {name: 'nurul amin', address: 'sylet', friend: 'jahangir alam'};
+const friendsOne = {name: 'jahangir alam', address: 'sylet', friend: 'nurul amin'};
+const friendsTwo = {name: 'nurul amin', address: 'sylet', friend: 'jahangir alam'};
 
-// function isBestFriend (friendsNameOne, friendsNameTwo){
-//     if (friendsNameOne.name === friendsNameTwo.friend &&friendsNameTwo.name === friendsNameOne.friend){
-//         return true;
-//     }
-//     else {
-//         return false;
-//     }
-// }
+function isBestFriend (friendsNameOne, friendsNameTwo){
+    if (friendsNameOne.name === friendsNameTwo.friend &&friendsNameTwo.name === friendsNameOne.friend){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
 
-// const result1 = isBestFriend(friendsOne, friendsTwo);
-// console.log(result1);
+const result1 = isBestFriend(friendsOne, friendsTwo);
+console.log(result1);
