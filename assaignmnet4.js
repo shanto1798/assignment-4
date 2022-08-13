@@ -10,10 +10,8 @@ function radiantToDegree ( radiant ) {
     }
 }
 
-// call function
-
 let result = radiantToDegree(2);
-console.log(result);
+// console.log(result);
 
 // problem solve 2
 
@@ -32,7 +30,7 @@ function isJavaScriptFile (fileName) {
 }
 
 const extentionName = isJavaScriptFile('mokbul.js');
-console.log(extentionName);
+// console.log(extentionName);
 
 // problem solve 3
 
@@ -61,7 +59,7 @@ function oilPrice (oilQuality, petrolQuality, diselQuality) {
 }
 
 const totalCost = oilPrice(2, 2, 1);
-console.log(totalCost);
+// console.log(totalCost);
 
 // problem solve 4
 
@@ -82,7 +80,7 @@ function publicBusFare(people) {
 }
 
 const public = publicBusFare(365);
-console.log(public);
+// console.log(public);
 
 // problem solve 5
 
@@ -99,4 +97,4 @@ function isBestFriend (friendsNameOne, friendsNameTwo){
 }
 
 const result1 = isBestFriend(friendsOne, friendsTwo);
-console.log(result1);
+// console.log(result1);
